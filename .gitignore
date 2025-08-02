@@ -53,3 +53,8 @@ yarn-error.log*
 # OS
 .DS_Store
 Thumbs.db
+
+# Ignore all dotfiles/directories except specific ones
+.*
+!.gitignore
+!.gitguardian.yaml

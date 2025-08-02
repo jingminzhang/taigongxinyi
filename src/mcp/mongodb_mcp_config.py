@@ -325,7 +325,7 @@ services:
     ports:
       - "{self.config.mcp_server_port}:{self.config.mcp_server_port}"
     environment:
-      MONGODB_URL: mongodb://admin:password@mongodb:27017/{self.config.default_database}?authSource=admin
+      MONGODB_URL: [REDACTED - 从Doppler获取MONGODB_URL]
       MCP_SERVER_PORT: {self.config.mcp_server_port}
       LOG_LEVEL: {self.config.log_level}
     depends_on:
