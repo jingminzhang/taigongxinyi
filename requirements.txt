@@ -1,0 +1,35 @@
+# 炼妖壶 (Lianyaohu) - 稷下学宫AI辩论系统
+# 项目依赖清单
+
+# Web框架
+streamlit>=1.28.0
+
+# 数据处理
+pandas>=2.0.0
+numpy>=1.24.0
+
+# 可视化
+plotly>=5.15.0
+
+# HTTP请求
+requests>=2.31.0
+
+# 类型注解支持
+typing-extensions>=4.7.0
+
+# 数据库连接 (可选)
+# sqlalchemy>=2.0.0
+# pymongo>=4.5.0
+# pymilvus>=2.3.0
+
+# 开发工具 (可选)
+# pytest>=7.4.0
+# black>=23.7.0
+# flake8>=6.0.0
+
+# AI模型接口
+openai>=1.0.0
+# anthropic>=0.3.0
+
+# OpenAI Swarm (从GitHub安装)
+# pip install git+https://github.com/openai/swarm.git

@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "MongoDB": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mongodb-mcp-server",
+        "--connectionString",
+        "mongodb+srv://ben:313131@cauldron.tx3qnoq.mongodb.net/"
+      ],
+      "env": {},
+      "disabled": false,
+      "autoApprove": [
+        "find",
+        "collection-schema",
+        "collection-indexes",
+        "create-index",
+        "aggregate",
+        "delete-many",
+        "count",
+        "list-databases",
+        "list-collections"
+      ]
+    }
+  }
+}
