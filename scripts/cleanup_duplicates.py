@@ -21,7 +21,9 @@ def generate_stable_id(title, pub_date, content):
 def cleanup_duplicates():
     """清理重复数据"""
     # 连接MongoDB
-    mongo_uri = os.getenv('MONGODB_URI', 'mongodb+srv://ben:313131@cauldron.tx3qnoq.mongodb.net/')
+    mongo_uri = os.getenv('MONGODB_URI')
+    if not mongo_uri:
+        raise ValueError("MONGODB_URI environment variable is required")
     client = MongoClient(mongo_uri)
     db = client['taigong']
     collection = db['articles']

@@ -1,0 +1,45 @@
+# GitGuardian configuration for liurenchaxin project
+version: 2
+
+# Paths to exclude from scanning
+paths_ignore:
+  - venv/
+  - .git/
+  - node_modules/
+  - __pycache__/
+  - "*.pyc"
+  - "*.log"
+  - .kiro/
+  - examples/
+  - tests/fixtures/
+  - tools/
+
+# File patterns to exclude
+patterns_ignore:
+  - "*.min.js"
+  - "*.bundle.js"
+  - "*.map"
+  - "*.lock"
+  - "package-lock.json"
+  - "yarn.lock"
+
+# Only scan specific file types for secrets
+match_policy:
+  - "*.py"
+  - "*.js"
+  - "*.ts"
+  - "*.json"
+  - "*.yaml"
+  - "*.yml"
+  - "*.env.example"
+  - "*.md"
+  - "*.sh"
+
+# Exclude .env files from scanning (they should be in .gitignore anyway)
+paths_ignore_patterns:
+  - ".env"
+  - ".env.local"
+  - ".env.production"
+
+# Secret detection settings
+secret_scan_preference: secret

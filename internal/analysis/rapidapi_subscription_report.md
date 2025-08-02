@@ -2,7 +2,7 @@
 
 ## 📊 总体概况
 
-**API Key**: `6731900a13msh816fbe854209ac2p1bded2jsn1538144d52a4`
+**API Key**: `[REDACTED - 从Doppler获取RAPIDAPI_KEY]`
 **订阅总数**: 16个 (根据控制台显示)
 **24小时调用**: 9次
 **已确认可用**: 4个核心API

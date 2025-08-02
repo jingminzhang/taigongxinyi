@@ -64,7 +64,7 @@
 verifier = LingbaoFieldVerifier(
     openmanus_url="your-openmanus-url",
     api_key="your-openmanus-key",
-    openhands_api_key="hA04ZDQbdKUbBCqmN5ZPFkcdK0xsKLwX"
+    openhands_api_key="[REDACTED - 从Doppler获取OPENHANDS_API_KEY]"
 )
 
 # 执行验证
@@ -110,7 +110,7 @@ from src.core.openhands_integration import LingbaoOpenHandsVerifier
 
 # 创建验证器
 verifier = LingbaoOpenHandsVerifier(
-    api_key="hA04ZDQbdKUbBCqmN5ZPFkcdK0xsKLwX"
+    api_key="[REDACTED - 从Doppler获取OPENHANDS_API_KEY]"
 )
 
 # 验证辩论结论
@@ -132,7 +132,7 @@ from src.core.lingbao_field_verification import LingbaoFieldVerifier
 verifier = LingbaoFieldVerifier(
     openmanus_url="your-openmanus-url",
     api_key="your-api-key",
-    openhands_api_key="hA04ZDQbdKUbBCqmN5ZPFkcdK0xsKLwX"
+    openhands_api_key="[REDACTED - 从Doppler获取OPENHANDS_API_KEY]"
 )
 
 # 执行完整验证流程
@@ -190,7 +190,7 @@ tianzun_report = await verifier.verify_debate_result(debate_result)
 
 ```bash
 # OpenHands配置
-OPENHANDS_API_KEY=hA04ZDQbdKUbBCqmN5ZPFkcdK0xsKLwX
+OPENHANDS_API_KEY=[REDACTED - 从Doppler获取OPENHANDS_API_KEY]
 OPENHANDS_BASE_URL=https://app.all-hands.dev
 OPENHANDS_TIMEOUT=300
 
@@ -224,7 +224,7 @@ pip install aiohttp pydantic
 
 ```python
 # 在.env文件中配置
-OPENHANDS_API_KEY=hA04ZDQbdKUbBCqmN5ZPFkcdK0xsKLwX
+OPENHANDS_API_KEY=[REDACTED - 从Doppler获取OPENHANDS_API_KEY]
 ```
 
 ### 3. 运行演示

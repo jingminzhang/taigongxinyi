@@ -4,7 +4,7 @@
 
 基于Doppler配置和实际测试，记录当前RapidAPI订阅的API服务及其可用性。
 
-**API密钥**: `6731900a13msh816fbe854209ac2p1bded2jsn1538144d52a4`  
+**API密钥**: `[REDACTED - 从Doppler获取RAPIDAPI_KEY]`  
 **总订阅数**: 17个API服务  
 **最后更新**: 2025-08-02
 
